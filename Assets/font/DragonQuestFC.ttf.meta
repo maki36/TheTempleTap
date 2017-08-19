@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 97e4f950f1d96d24287d82607166e9e9
+timeCreated: 1503081645
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: DragonQuestFC
+  fontNames:
+  - DragonQuestFC
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

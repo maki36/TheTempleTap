@@ -77,9 +77,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   orbPicture:
-  - {fileID: 21300000, guid: f7c945e5b48bbb74b98c6852bda0bb00, type: 3}
-  - {fileID: 21300000, guid: 351b507d7a414284bba9f05b5f1f0573, type: 3}
-  - {fileID: 21300000, guid: f0c68febedeff1a4db8dae35343931d3, type: 3}
+  - {fileID: 21300000, guid: e0cd26d48329faa4b98a5451bce8cb73, type: 3}
+  - {fileID: 21300000, guid: 8d155e3fd88fdca4187356e5d656ed96, type: 3}
+  - {fileID: 21300000, guid: b9e07fb8e9e65cc48a04d88d75e557b0, type: 3}
 --- !u!114 &114513657775841144
 MonoBehaviour:
   m_ObjectHideFlags: 1

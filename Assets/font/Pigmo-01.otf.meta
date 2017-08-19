@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: ad75d97789a6f4b40b9c8054b812a2cf
+timeCreated: 1503081197
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: pigmo
+  fontNames:
+  - pigmo
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

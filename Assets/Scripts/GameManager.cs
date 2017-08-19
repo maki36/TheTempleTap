@@ -53,7 +53,7 @@ public class GameManager : MonoBehaviour {
 
 	private DateTime lastDateTime;//前回オーブを生成した時間
 
-	private int[] nextScoreTable = new int[] { 100, 1000, 10000 };//レベルアップ値
+	private int[] nextScoreTable = new int[] { 100, 500	, 550 };//レベルアップ値
 
 	private AudioSource audioSource;//オーディオソース
 
@@ -86,9 +86,6 @@ public class GameManager : MonoBehaviour {
 		kusudama.transform.SetParent (canvasGame.transform, false);
 
 		audioSource.PlayOneShot (clearSE);
-
-		//ここにシーンの再読み込みを行ってみましたが無理でした；
-		SceneManager.LoadScene ("GameScene");
 
 	}
 
@@ -144,7 +141,7 @@ public class GameManager : MonoBehaviour {
 			Invoke ("CreateNewOrb", 0.1f * numOfOrb);
 			numOfOrb--;
 		}
-		
+			
 		/*if(currentOrb < MAX_ORB){
 			TimeSpan timeSpan = DateTime.UtcNow - lastDateTime;
 
@@ -210,7 +207,7 @@ public class GameManager : MonoBehaviour {
 		CreateOrb ();
 		currentOrb++;
 
-		SeveGameData ();
+		//SeveGameData ();
 
 
 	}
@@ -285,19 +282,23 @@ public class GameManager : MonoBehaviour {
 			if ((score == nextScore) && (templeLevel == MAX_LEVEL)) {
 				PlayerPrefs.DeleteAll ();
 				ClearEffect ();
+
 			}
 		}
 
 
 		currentOrb--;
 
-		SeveGameData ();
+		//PlayerPrefs.DeleteAll ();
+
+
+		//SeveGameData ();
 
 	}
 
 	//スコアテキスト更新
 	void RefreshScoreText(){
-		textScore.GetComponent<Text> ().text = "徳：" + score + "/" + nextScore;
+		textScore.GetComponent<Text> ().text = "オーラ/" + score + "/" + nextScore;
 	}
 
 	//ゲームデータをセーブ

@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: bff8ef1fdb58b074a8ec9b2e7e960be4
+timeCreated: 1503082686
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: GN-Kyu-pin
+  fontNames:
+  - GN-Kyu-pin
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
